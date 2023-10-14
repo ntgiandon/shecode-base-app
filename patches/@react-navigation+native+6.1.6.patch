@@ -1,0 +1,13 @@
+diff --git a/node_modules/@react-navigation/native/lib/typescript/src/types.d.ts b/node_modules/@react-navigation/native/lib/typescript/src/types.d.ts
+index cf1fd52..826d6d0 100644
+--- a/node_modules/@react-navigation/native/lib/typescript/src/types.d.ts
++++ b/node_modules/@react-navigation/native/lib/typescript/src/types.d.ts
+@@ -8,6 +8,8 @@ export declare type Theme = {
+         text: string;
+         border: string;
+         notification: string;
++        error: string;
++        success: string;
+     };
+ };
+ export declare type LinkingOptions<ParamList extends {}> = {

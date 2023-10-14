@@ -1,0 +1,34 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-native",
+    "lib": ["es2017"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "~*": ["./src/*"],
+      "~constants": ["./src/constants"],
+      "~navigations": ["./src/navigations"],
+      "~scenes": ["./src/scenes"],
+      "~styles": ["./src/styles"],
+      "~utils": ["./src/utils"],
+      "~redux": ["./src/redux"],
+      "~hooks": ["./src/hooks"],
+      "~components": ["./src/components"],
+      "~models": ["./src/models"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}

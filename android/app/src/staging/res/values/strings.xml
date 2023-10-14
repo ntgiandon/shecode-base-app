@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">@string/APP_NAME</string>
+    <string name="CodePushDeploymentKey" moduleConfig="true">@string/CODE_PUSH_KEY_ANDROID</string>
+    <string name="GoogleMapKey" templateMergeStrategy="preserve" translatable="false" moduleConfig="true">@string/GOOGLE_MAP_KEY_ANDROID</string>
+</resources>

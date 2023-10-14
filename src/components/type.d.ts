@@ -1,0 +1,17 @@
+declare type FontStyle =
+  | 'medium'
+  | 'regular'
+  | 'large'
+  | 'small'
+  | 'medium|bold'
+  | 'medium|italic'
+  | 'medium|normal'
+  | 'regular|bold'
+  | 'regular|italic'
+  | 'regular|normal'
+  | 'large|bold'
+  | 'large|italic'
+  | 'large|normal'
+  | 'small|bold'
+  | 'small|italic'
+  | 'small|normal';
